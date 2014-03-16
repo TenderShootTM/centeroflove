@@ -1,0 +1,32 @@
+@font-face {
+    font-family: Amiri;
+    src: url('fonts/amiri-regular.ttf');
+}
+
+* { direction: rtl; }
+/*html { font-family: Amiri; }*/
+
+#language-select { float: left; margin-right: 0; margin-left: 20px; }
+#language-select a { margin: 0 10px 0 0; }
+
+#nav li { float: right; }
+#nav li#search-box { float: left; margin-right: 0; margin-left: 20px; }
+#nav li#search-box input { float: right; }
+#nav li#search-box #search-input { border-left: none; border-right: 1px solid #aaa; }
+#nav a { margin: 0 20px 0 0; }
+
+#bar span { margin-left: 0; margin-right: 415px; }
+
+.story-box .overlay { text-align: right; }
+
+#involved-bigbox a:nth-child(2n) .involved-subbox { float: right; border-right: none; border-left: 1px solid #aaa; }
+#involved-bigbox a:nth-child(2n+1) .involved-subbox { float: left; border-left: none; border-right: 1px solid #aaa; }
+.involved-subbox p { /* text-align */ }
+
+.connect-box { float: right; margin-right: 0; margin-left: 20px; }
+#pray-list li:nth-child(2n) a { margin-left: 0; margin-right: 20px; }
+#pray-list li a { float: right; }
+
+#right-col, .right-col { float: left; }
+#left-col { float: right; }
+.mid-col { margin-right: 0; margin-left: 270px; float: left; }

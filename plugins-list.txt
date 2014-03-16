@@ -1,0 +1,6 @@
+Center of Love WordPress theme
+
+Plugins required:
+Featured Post plugin (Sovit Tamrakar)
+Custom Post Type UI Plugin (WebDevStudios.com)
+WPML Multilingual CMS (ICanLocalize)

@@ -1,0 +1,111 @@
+@font-face {
+    font-family: Signika;
+    src: url('fonts/signika/signika-regular.ttf');
+}
+@font-face {
+    font-family: SignikaL;
+    src: url('fonts/signika/signika-light.ttf');
+}
+@font-face {
+    font-family: ABZ;
+    src: url('fonts/abeezee/abeezee-regular.ttf');
+}
+@font-face {
+    font-family: Imprima;
+    src: url('fonts/imprima/imprima-regular.ttf');
+}
+
+html { font-family: SignikaL; }
+
+h2 { font-family:  Imprima; }
+#involved-box h2, #involved-bigbox h2 { font-family: ABZ; }
+#involved-box ul, .involved-subbox h3 { font-family: Signika; }
+.col-title h2 { font-family: Signika; }
+#pray-list li p { font-family: ABZ; }
+
+
+/* Color scheme for Center of Love website */
+
+/* Colors
+ * Brown
+ * text: 72461A
+ * dark: c4c480
+ * medium: dfdf9f
+ * light: e8e8b0
+ * Gold: EDC92A
+ * Red: A54033
+ * Green: 7CA83A
+ */ 
+
+body { background: #8E643D; }
+
+a { color: inherit; }
+
+div { background: #e8e8b0; } 
+#language-select a { background: #e8e8b0; }
+
+#wrapper { background: #e8e8b0; border-color: #72461A; }
+#header { background: inherit; }
+#footer { background: #c4c480; border-color: #BCBC74; }
+
+.home-row { background: inherit; }
+
+#nav a { background: #c4c480; color: #72461A; border-color: #BCBC74; }
+#nav a:hover { background: #CCCC88; }
+#nav a.selected { background: #A54033; color: #fff; border-color: #993327; }
+
+#bar { background: #EDC92A; border-color: #E5BE20; }
+#bar span { background: #A54033; }
+
+#content { background: inherit; }
+#gallery { background: #dfdf9f; border-color: #dfdf9f; }
+
+#about-box { background: #FCFCFC; border-color: #dfdf9f; }
+#about-box h2 { color: #A54033; }
+#about-box a { color: #EDC92A; }
+
+#involved-box, #involved-bigbox { background: #FFFFFC; border-color: #dfdf9f; }
+#involved-box h2, #involved-bigbox h2 { background: #7CA83A; color: #fff; border-color: #6E992D; }
+#involved-box a, .involved-subbox:hover p { color: #1c1c1c; }
+#involved-box a:hover, .involved-subbox:hover h3 { color: #EDC92A; }
+#involved-box a.selected { color: #A54033; }
+#involved-box a.selected:hover { color: #BF6257; }
+#involved-box ul { border-color: #dfdf9f; }
+.involved-subbox { background: inherit; border-color: #FFFFFC !important; }
+.involved-subbox:hover { background: inherit; }
+.involved-subbox p { color: #4F4F4F; }
+
+#posts-box { background: #A54033; color: #000; border-color: #dfdf9f; }
+#posts-box h3 { color: #fff; }
+#posts-box a { border-color: #c4c480; background: #FFFFFC; }
+#posts-box a:hover { background: #F7F7EA; }
+#posts-box a#read-more-link { background: #F7D85D; }
+#posts-box a#read-more-link:hover { background: #EDC92A; }
+
+.story-box { background: #636363; color: #1C1C1C;  }
+.story-box .overlay h2 { color: #1C1C1C; }
+.story-box .overlay p { color: #1C1C1C; }
+a.story-box-link { border-color: #dfdf9f; }
+
+#fb-like-box { background: #FFFFFC; border-color: #dfdf9f; }
+
+#story, .text-box { border-color: #dfdf9f; }
+.text-box, .text-box div.img, .text-box img { background: #FCFCFC; }
+.text-box p a { color: #A54033; }
+div.gold { background: #EDC92A; color: #fff; border-color: #dfdf9f; }
+div.gold h2 { border-color: #E0B81A; }
+div.red { background: #A54033; color: #fff; border-color: #dfdf9f; }
+div.red h2 { border-color: #993327; }
+div.green { background: #7CA83A; color: #fff; border-color: #dfdf9f; }
+div.green h2 { border-color: #6E992D; }
+.lg-text h3:nth-of-type(2n) { background: #A54033; border-color: #993327; color: #fff; }
+.lg-text h3:nth-of-type(2n+1) { background: #7CA83A; color: #fff; border-color: #6E992D;}
+
+#pray-list li a { background: #FCFCFC; color: #4F4F4F;  border-color: #dfdf9f;}
+#pray-list li a:hover { color: #1C1C1C; border-color: #C6C671; }
+
+#search-results a div { color: #4F4F4F; }
+#search-results a:hover div { color: #1C1C1C; border-color: #C6C671; }
+
+.connect-box { background: #545454; border-color: #aaa; color: #fff; }
+.connect-box:hover { background: #7CA83A; border-color: #6E992D; }
